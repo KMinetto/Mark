@@ -1,0 +1,30 @@
+/** Style **/
+
+
+header {
+    background-image: url("../images/bg.jpg");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    top: 10%;
+    right: 5%;
+    transform: translateX(-5%) translateY(-10%);
+}
+
+/** Class **/
+
+.red {
+    color: #d63c37;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.symbol:before {
+    position: absolute;
+    font-size: 22px;
+}
