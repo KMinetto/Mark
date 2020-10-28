@@ -1,0 +1,82 @@
+$menu-icon-bg: #494f54;
+$menu-icon-color: #494f54;
+$duration: 0.5s;
+
+.menu-icon {
+  position: relative;
+  width: 36px;
+  height: 36px;
+
+
+
+  border-radius: 50%;
+
+  span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    display: block;
+    width: 22px;
+    height: 2px;
+
+    background-color: $menu-icon-color;
+    transform: translate(-50%, -50%);
+
+    &::before, &::after {
+      content: '';
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+      display: block;
+      width: 22px;
+      height: 2px;
+
+      background-color: $menu-icon-color;
+
+      transform: translateY(-6px);
+      transition: transform $duration;
+    }
+    &::after {
+      transform: translateY(6px);
+    }
+  }
+
+  &:hover {
+    span::before {
+      transform: translateY(-8px);
+    }
+
+    span::after {
+      transform: translateY(8px);
+    }
+  }
+}
+
+.menu-icon-cross{
+
+  transition: transform $duration;
+
+  span::before, span::after {
+    transform-origin: 50% 50%;
+  }
+
+  span {
+    transition: background $duration, transform $duration;
+  }
+
+  &.isOpened {
+    transform: rotate(180deg);
+    span {
+      background: transparent;
+    }
+    span::before {
+      transform: translateY(0) rotate(45deg);
+    }
+    span::after {
+      transform: translateY(0) rotate(-45deg);
+    }
+  }
+}
