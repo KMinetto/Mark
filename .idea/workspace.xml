@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="55cc626e-a905-4c4e-ba8d-74903cf14151" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +39,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1iq8af5LPOehxGPXYeP7fjyEPBS" />
@@ -110,13 +116,13 @@
       <screen x="0" y="0" width="1600" height="860" />
     </state>
     <state x="579" y="184" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1602797305952" />
-    <state x="391" y="160" key="Vcs.Push.Dialog.v2" timestamp="1603895036557">
+    <state x="391" y="160" key="Vcs.Push.Dialog.v2" timestamp="1603895820566">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="391" y="160" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603895036557" />
-    <state x="579" y="60" key="git4idea.branch.GitSmartOperationDialog" timestamp="1603881181873">
+    <state x="391" y="160" key="Vcs.Push.Dialog.v2/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603895820566" />
+    <state x="579" y="60" key="git4idea.branch.GitSmartOperationDialog" timestamp="1603895586885">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="579" y="60" key="git4idea.branch.GitSmartOperationDialog/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603881181873" />
+    <state x="579" y="60" key="git4idea.branch.GitSmartOperationDialog/0.0.1600.860/1600.0.1366.728@0.0.1600.860" timestamp="1603895586885" />
   </component>
 </project>
