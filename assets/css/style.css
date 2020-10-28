@@ -58,8 +58,39 @@ nav {
     left: -40px;
 }
 
+#blazing:after {
+    position: absolute;
+    content: url("../images/icon1.png");
+    font-size: 16px;
+}
+#customization:after {
+    position: absolute;
+    content: url("../images/icon3.png");
+    font-size: 16px;
+}
+#lightning:after {
+    position: absolute;
+    content: url("../images/icon2.png");
+    font-size: 16px;
+}
+#clean:after {
+    position: absolute;
+    content: url("../images/icon4.png");
+    font-size: 16px;
+}
+#use:after {
+    position: absolute;
+    content: url("../images/icon5.png");
+    font-size: 16px;
+}
+
+
 /** ID **/
 
 #reverse {
     margin-right: 0;
+}
+
+#container {
+    background-color: #d63c37;
 }
