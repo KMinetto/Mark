@@ -58,6 +58,10 @@ nav {
     left: -40px;
 }
 
+.text {
+    margin-bottom: 310px;
+}
+
 #blazing:after {
     position: absolute;
     content: url("../images/icon1.png");
@@ -93,4 +97,13 @@ nav {
 
 #container {
     background-color: #d63c37;
+}
+
+#introducing {
+    margin-top: 350px;
+}
+
+#discover {
+    margin-top: 310px;
+    margin-bottom: 90px;
 }
